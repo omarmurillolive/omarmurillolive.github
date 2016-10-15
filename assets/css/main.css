@@ -380,7 +380,7 @@
 
 /* GROSOR DEL TITULO DE LA PAGINA VESNESTI MUSIC*/
 
-		font-weight: 600;
+		font-weight: 580;
 		line-height: 0em;
 		margin: 0 0 0em 0;
 	}
@@ -403,7 +403,7 @@
 	}
 
 	h3 {
-		font-size: 0.35em;
+		font-size: 1.35em;
 		line-height: 0.5em;
 	}
 
@@ -447,7 +447,7 @@
 		background: #ffffff;
 		border-radius: 6px;
 		border: solid 2px rgba(255, 255, 255, 0.35);
-		font-family: "Courier New", monospace;
+		font-family: 'Lato', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -482,7 +482,7 @@
 	section.special, article.special {
 		text-align: center;
 	}
-/* CAMBIA EL COLOR DEL TEXTO SOY VENESTI, COMO ARTISTA ... */
+/* CAMBIA EL COLOR DEL TEXTO como artista ... */
 	header p {
 		color: rgba(0, 0, 0, 0.65);
 		position: relative;
@@ -544,7 +544,8 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: 'Lato', sans-serif;
+/* nos afecta los iconos de las RSSS */
+			font-family:
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
